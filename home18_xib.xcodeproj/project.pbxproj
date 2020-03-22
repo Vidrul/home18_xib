@@ -13,6 +13,8 @@
 		18F5F7C42427699B00B41691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5F7C22427699B00B41691 /* Main.storyboard */; };
 		18F5F7C62427699C00B41691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F5F7C52427699C00B41691 /* Assets.xcassets */; };
 		18F5F7C92427699C00B41691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5F7C72427699C00B41691 /* LaunchScreen.storyboard */; };
+		18F5F7D124276C0900B41691 /* FlagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F5F7D024276C0900B41691 /* FlagViewController.xib */; };
+		18F5F7D324276EB900B41691 /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5F7D224276EB900B41691 /* FlagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18F5F7C52427699C00B41691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F5F7C82427699C00B41691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F5F7CA2427699C00B41691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F5F7D024276C0900B41691 /* FlagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlagViewController.xib; sourceTree = "<group>"; };
+		18F5F7D224276EB900B41691 /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				18F5F7BC2427699B00B41691 /* AppDelegate.swift */,
 				18F5F7BE2427699B00B41691 /* SceneDelegate.swift */,
 				18F5F7C02427699B00B41691 /* ViewController.swift */,
+				18F5F7D224276EB900B41691 /* FlagViewController.swift */,
+				18F5F7D024276C0900B41691 /* FlagViewController.xib */,
 				18F5F7C22427699B00B41691 /* Main.storyboard */,
 				18F5F7C52427699C00B41691 /* Assets.xcassets */,
 				18F5F7C72427699C00B41691 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F5F7C92427699C00B41691 /* LaunchScreen.storyboard in Resources */,
+				18F5F7D124276C0900B41691 /* FlagViewController.xib in Resources */,
 				18F5F7C62427699C00B41691 /* Assets.xcassets in Resources */,
 				18F5F7C42427699B00B41691 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F5F7D324276EB900B41691 /* FlagViewController.swift in Sources */,
 				18F5F7C12427699B00B41691 /* ViewController.swift in Sources */,
 				18F5F7BD2427699B00B41691 /* AppDelegate.swift in Sources */,
 				18F5F7BF2427699B00B41691 /* SceneDelegate.swift in Sources */,
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "David.home18-xib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "David.home18-xib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
