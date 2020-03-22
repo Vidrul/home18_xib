@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bC1-sb-EiP" customClass="FlagViewController" customModule="home18_xib" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bC1-sb-EiP" customClass="FlagView" customModule="home18_xib" customModuleProvider="target">
                                 <rect key="frame" x="20" y="54" width="374" height="85"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="85" id="y5q-IW-ibK"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2v-9q-r5F" customClass="FlagViewController" customModule="home18_xib" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2v-9q-r5F" customClass="FlagView" customModule="home18_xib" customModuleProvider="target">
                                 <rect key="frame" x="20" y="149" width="374" height="85"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="85" id="oLV-2p-rCT"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wn3-bG-eK1" customClass="FlagViewController" customModule="home18_xib" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wn3-bG-eK1" customClass="FlagView" customModule="home18_xib" customModuleProvider="target">
                                 <rect key="frame" x="20" y="244" width="374" height="85"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -54,9 +54,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="myView" destination="bC1-sb-EiP" id="9BP-1X-WKG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,12 +7,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FlagViewController" customModule="home18_xib" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FlagView" customModule="home18_xib" customModuleProvider="target">
             <connections>
-                <outlet property="blueButton" destination="C8X-lE-Oz7" id="V5X-tm-1kJ"/>
-                <outlet property="greenButton" destination="lFF-cX-Qyd" id="iRf-OD-VIp"/>
+                <outlet property="blueButton" destination="C8X-lE-Oz7" id="glM-Pb-3UX"/>
+                <outlet property="greenButton" destination="lFF-cX-Qyd" id="dS8-vu-6Ug"/>
                 <outlet property="mainView" destination="cbA-4l-cMF" id="6w9-tn-ypB"/>
-                <outlet property="redButton" destination="r0j-HZ-Tyv" id="bun-cz-AZz"/>
+                <outlet property="redButton" destination="r0j-HZ-Tyv" id="Vbv-lr-sGx"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -24,21 +24,21 @@
                     <rect key="frame" x="20" y="83.666666666666671" width="30" height="30"/>
                     <state key="normal" title="Red"/>
                     <connections>
-                        <action selector="redButtonDidClick:" destination="-1" eventType="touchUpInside" id="TY5-kz-YlO"/>
+                        <action selector="redButtonDidClick:" destination="-1" eventType="touchUpInside" id="NOO-YI-phc"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8X-lE-Oz7">
                     <rect key="frame" x="135.66666666666666" y="83.666666666666671" width="31" height="30"/>
                     <state key="normal" title="Blue"/>
                     <connections>
-                        <action selector="blueButtonDidClick:" destination="-1" eventType="touchUpInside" id="170-kS-Rxe"/>
+                        <action selector="blueButtonDidClick:" destination="-1" eventType="touchUpInside" id="NWM-rW-WQq"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFF-cX-Qyd">
                     <rect key="frame" x="240" y="83.666666666666671" width="42" height="30"/>
                     <state key="normal" title="Green"/>
                     <connections>
-                        <action selector="greenButtonDidClick:" destination="-1" eventType="touchUpInside" id="OTD-c0-o5g"/>
+                        <action selector="greenButtonDidClick:" destination="-1" eventType="touchUpInside" id="KGL-3v-UAU"/>
                     </connections>
                 </button>
             </subviews>

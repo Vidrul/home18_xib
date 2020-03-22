@@ -1,7 +1,7 @@
 
 import UIKit
 
-class FlagViewController: UIView {
+class FlagView: UIView {
     
     @IBOutlet var mainView: UIView!
     
@@ -15,6 +15,7 @@ class FlagViewController: UIView {
         clickHandler?()
         UIView.animate(withDuration: 1.0) {
             self.mainView.backgroundColor = UIColor.init(displayP3Red: 1.0 , green: 0, blue: 0, alpha: 1.0)
+            
         }
         
     }
@@ -45,7 +46,7 @@ class FlagViewController: UIView {
     }
     
     private func commonInit() {
-        Bundle.main.loadNibNamed("FlagViewController", owner: self, options: nil)
+        Bundle.main.loadNibNamed("FlagView", owner: self, options: nil)
         self.addSubview(mainView)
         mainView.frame = self.bounds
         mainView.autoresizingMask = [.flexibleHeight,.flexibleWidth]
